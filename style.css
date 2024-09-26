@@ -1,0 +1,40 @@
+
+header {
+    display: flex;
+    align-items: center; /* Alinha verticalmente */
+    justify-content: space-between; /* Coloca os itens nas extremidades */
+    background: #004977;
+    color: #ffffff;
+    padding: 10px 20px; /* Adiciona padding */
+}
+
+.logotecimg {
+    max-width: 100px; /* Define um tamanho máximo para o logotipo */
+    height: auto; /* Mantém a proporção do logotipo */
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+section {
+    padding: 20px;
+    margin: 10px;
+    background: #ffffff;
+    border-radius: 5px;
+    flex: 1; /* Faz o conteúdo ocupar o espaço disponível */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #004977;
+    color: #ffffff;
+}
